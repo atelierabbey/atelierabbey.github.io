@@ -1,6 +1,7 @@
 ---
 title: Welcome to Atelier Abbey
 layout: default
+exclude: true
 ---
 
 Atelier Abbey is a small group of visual storytellers and story enthusiasts. We aim to provide a solid learning resource and helpful resources for visual developers, character designers, storytellers, artists, and designers.
