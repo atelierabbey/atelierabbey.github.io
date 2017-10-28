@@ -1,13 +1,14 @@
-items: 
-- 
-  title: Facebook
-  url: "https://www.facebook.com/AtelierAbbey"
-- 
-  title: Twitter
-  url: "https://twitter.com/AtelierAbbey"
-- 
-  title: LinkedIn
-  url: "https://www.linkedin.com/company/10251995"
-- 
-  title: deviantArt
-  url: "http://atelier-abbey.deviantart.com"
+docs2_list_title: ACME Documentation
+docs2:
+
+- title: Introduction
+  url: introduction.html
+  version: 1
+
+- title: Configuration
+  url: configuration.html
+  version: 1
+
+- title: Deployment
+  url: deployment.html
+  version: 2
