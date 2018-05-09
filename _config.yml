@@ -2,3 +2,14 @@ title: Atelier Abbey
 author: Atelier Abbey
 email: info@atelierabbey.org
 theme: minima
+
+
+social:
+- title: Facebook
+  url: "https://www.facebook.com/AtelierAbbey"
+- title: Twitter
+  url: "https://twitter.com/AtelierAbbey"
+- title: LinkedIn
+  url: "https://www.linkedin.com/company/10251995"
+- title: deviantArt
+  url: "http://atelier-abbey.deviantart.com"
