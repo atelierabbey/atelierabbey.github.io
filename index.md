@@ -17,5 +17,7 @@ Atelier Abbey is a small group of visual storytellers and story enthusiasts. We 
 
 </div>
 
+<div class="clear"></div>
+
 </div>
 </div>
