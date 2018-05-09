@@ -8,9 +8,7 @@ exclude: true
 <div class="page-wrapper">
 
 <div class="one_third">
-
-# Atelier Abbey
-
+<h1>Atelier Abbey</h1>
 </div>
 
 <div class="two_third">
