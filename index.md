@@ -8,14 +8,12 @@ exclude: true
 <div class="page-wrapper">
 
 <div class="one_third">
+
 <h1>Atelier Abbey</h1>
-</div>
-
-<div class="two_third">
-
-Atelier Abbey is a small group of visual storytellers and story enthusiasts. We aim to provide a solid learning resource and helpful resources for visual developers, character designers, storytellers, artists, and designers.
 
 </div>
+
+<p class="two_third">Atelier Abbey is a small group of visual storytellers and story enthusiasts. We aim to provide a solid learning resource and helpful resources for visual developers, character designers, storytellers, artists, and designers.</p>
 
 <div class="clear"></div>
 
