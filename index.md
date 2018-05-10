@@ -4,7 +4,7 @@ layout: default
 exclude: true
 ---
 
-<div class="bg-big bg-one">
+<div id="home-intro" class="bg-big bg-one">
 <div class="page-wrapper">
 
 <div class="one_third">
