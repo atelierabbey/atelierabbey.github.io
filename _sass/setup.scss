@@ -21,7 +21,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1356px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -45,17 +45,6 @@ $on-laptop:        800px !default;
 
 @import "normalize","func";
 
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-}
-
-
 
 /**
  * Basic styling
@@ -74,29 +63,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
-
-
-
-/**
- * `main` element
- */
-main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
-}
-
-
 
 /**
  * Images
@@ -188,69 +154,6 @@ blockquote {
   }
 }
 
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
-}
-
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
-
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
 /**
  * Tables
  */
@@ -313,7 +216,7 @@ button, a.button, .button, html input[type="button"], input[type="reset"], input
 .page-wrapper {
 	width: calc(100% - 20px);
 	min-width: 320px;
-	max-width: 1280px;
+	max-width: #{$content-width};
 	margin: 0 auto;
 	padding: 20px;
 	position: relative;
